@@ -6,7 +6,7 @@ parameters = {
     "lat":my_lat,
     "lon":my_lng,
     "exclude":"current,minutely,daily",
-    "appid":"62ec8d22afc1dfb1ecc7b38cbee26382",
+    "appid":"you should put your keuy here",
 }
 response = requests.get(url="https://api.openweathermap.org/data/2.8/onecall?", params=parameters)
 response.raise_for_status()
